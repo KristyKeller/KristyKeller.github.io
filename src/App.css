@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
-
 body {
   font-size: 16px;
   background-image: url("https://i.ibb.co/5M6j4S7/so-white.png");
@@ -8,6 +7,7 @@ body {
   overflow-x: hidden;
   z-index: 1;
   margin: 0px;
+   text-align: center;
 }
 
 
@@ -54,15 +54,25 @@ nav li {
 
 nav li .link {
   text-decoration: none;
+  margin:0;
+  list-style:none;
   color: black;
-  background: #9352ae;
+  background: #D2C5E7;
+  opacity: .8;
   padding: 1em;
-  opacity: 0.8;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
+}
+
+
+
+#nav ul {
+  margin:0;
+  padding:0;
+  list-style:none;
 }
 
 li .link:hover {
@@ -106,26 +116,30 @@ li .link:hover {
 
 .about {
   display: flex;
-
+  background-image: url("https://i.ibb.co/nmgc6c5/6d8664e3f56927888f0a3ad65b9a66b6.png");
+  padding-bottom: 150px;
 }
 
 .about-content {
   position: relative;
+  font-size:16px;
   left: 10em;
   width: 700px;
   height: 400px;
   margin-bottom: 200px;
   margin-right: 50px;
+  color: white;
 }
 
 .about-content h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
-  text-align: left;
+  text-align: justify;
+
 }
 
 .about-content p {
-  font-size: 1em;
+  font-size: 16px;
   text-align: left;
   width: 37em;
 }
@@ -140,7 +154,7 @@ li .link:hover {
 }
 
 .work {
-  padding-top: 700px;
+  padding-top: 10px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -151,7 +165,7 @@ li .link:hover {
 .work .heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
-  text-align: left;
+  color: black;
 }
 
 .work .work-content {
@@ -166,16 +180,17 @@ li .link:hover {
 }
 
 .contact {
+  background-image: url("https://i.ibb.co/nmgc6c5/6d8664e3f56927888f0a3ad65b9a66b6.png");
   position: relative;
   top: 20em;
-  left: 10em;
-  text-align: left;
+  text-align: center;
 }
 
 .contact h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
-  text-align: left;
+  text-align: center;
+  padding-left: 110px;
 }
 
 .amazing-color {
@@ -186,10 +201,12 @@ li .link:hover {
 .contact .email {
   color: black;
   font-size: 2em;
+  text-align: center !important;
 }
 
 .contact li {
   display: inline-block;
+  text-align: center !important;
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 1em;
@@ -198,6 +215,7 @@ li .link:hover {
 
 .contact li a {
   text-decoration: none;
+  text-align: center !important;
   color: black;
 }
 
@@ -206,6 +224,7 @@ li .link:hover {
   top: 2em;
   padding: 1em;
 }
+
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
