@@ -41,9 +41,10 @@ header h1 {
 
 nav {
   position: fixed;
-  left: 55em;
   top: 0em;
   z-index: 100;
+  background: #D2C5E7;
+  width: 100%; 
 }
 
 nav li {
@@ -66,8 +67,6 @@ nav li .link {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-
-
 
 #nav ul {
   margin:0;
@@ -109,7 +108,7 @@ li .link:hover {
 .header-title {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
+  font-size: em;
   text-align: left;
   top: 2em;
 }
@@ -172,6 +171,7 @@ li .link:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2em;
+  padding-bottom: 180px;
 }
 
 .project img {
@@ -180,10 +180,10 @@ li .link:hover {
 }
 
 .contact {
-  background-image: url("https://i.ibb.co/nmgc6c5/6d8664e3f56927888f0a3ad65b9a66b6.png");
-  position: relative;
-  top: 20em;
+  background-image: url("https://i.ibb.co/PwMBhQg/6d8664e3f56927888f0a3ad65b9a66b6.png");
+  position: center;
   text-align: center;
+  padding-top: 10px;
 }
 
 .contact h1 {
@@ -209,7 +209,6 @@ li .link:hover {
   text-align: center !important;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 1em;
   margin-left: 0;
 }
 
@@ -323,7 +322,7 @@ li .link:hover {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
 
   body {
@@ -412,7 +411,7 @@ li .link:hover {
     font-size: 2em;
   }
 
-}
+} */
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
