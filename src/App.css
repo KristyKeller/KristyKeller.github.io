@@ -45,6 +45,7 @@ nav {
   z-index: 100;
   background: #D2C5E7;
   width: 100%; 
+  text-align: left;
 }
 
 nav li {
