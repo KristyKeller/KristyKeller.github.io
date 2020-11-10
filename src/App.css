@@ -216,6 +216,7 @@ li .link:hover {
 .contact li a {
   text-decoration: none;
   text-align: center !important;
+  margin: 10px;
   color: black;
 }
 
