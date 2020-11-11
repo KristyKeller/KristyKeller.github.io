@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
+
 body {
   font-size: 10px;
   background-image: url("https://i.ibb.co/5M6j4S7/so-white.png");
@@ -136,7 +138,7 @@ li .link:hover {
 
 .about-content h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
+  font-size: 4.5em;
   text-align: center;
 }
 
@@ -169,7 +171,7 @@ li .link:hover {
 
 .work .heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 8em;
+  font-size: 7em;
   text-align: center;
   color: black;
 }
@@ -207,9 +209,16 @@ li .link:hover {
 
 .contact h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 8em;
+  font-size: 7em;
   text-align: center;
 }
+
+.contact h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  text-align: center;
+}
+
 
 .amazing-color {
   color: #9352ae;
@@ -233,7 +242,7 @@ li .link:hover {
 .contact li a {
   text-decoration: none;
   text-align: center;
-  margin: 8px;
+  margin: 6px;
   color: black;
 }
 
