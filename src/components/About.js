@@ -9,13 +9,16 @@ class About extends Component {
             <div className='about-content'>
             <h1><Fade bottom cascade>About</Fade></h1>
             <Fade bottom>
-                    <p>{data.abouttext[0]}</p><br></br><p>{data.abouttext[1]}<p><br></br>
-            {data.abouttext[2]}</p><br></br><p>{data.abouttext[3]}<br></br></p></p><br></br>
+                <div>
+                {data.ShowAboutImage ? <img class="about-img" src={data.aboutImage} alt='about imaghe'></img> : null}
+                </div>
+                <div>
+                    <p>{data.abouttext[0]}</p><p>{data.abouttext[1]}</p>
+            <p>{data.abouttext[2]}</p><p>{data.abouttext[3]}</p><br></br>
+            </div>
             </Fade>
             </div>
-            <br></br>
-            {data.ShowAboutImage ? <img src={data.aboutImage} alt='about iamge'></img> : null}
-            
+         
 
         </div>  );
     }
