@@ -55,7 +55,7 @@ nav {
 nav li {
   display: inline-block;
   cursor: pointer;
-
+  padding-top: 10px;
 }
 
 nav li .link {
@@ -140,21 +140,25 @@ li .link:hover {
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: center;
-
 }
 
 .about-content p {
   font-size: 16px;
-  text-align: left;
+  text-align: center;
+  margin-left: 60px;
   width: 37em;
   float: center;
 }
 
 .about-img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   align-self: center;
+  box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
+  -o-box-shadow: 10px 10px  5px rgba(0,0,0,0.6);
 }
 
 .work {
