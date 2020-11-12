@@ -10,6 +10,17 @@ body {
   text-align: center;
 }
 
+*::-webkit-scrollbar {
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #9352ae;
+  border-radius: 20px;
+  border: 2px solid transparent;
+}
 
 .App {
   text-align: center;
