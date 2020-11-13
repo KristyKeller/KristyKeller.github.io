@@ -59,14 +59,7 @@ export default
                 url: 'https://github.com/KristyKeller/DayPlanner',
                 code:""
             },
-            {
-                id: 5,
-                title: 'Code Coach',
-                description:"A learning application where anyone who wants to learn the basics of coding can practice and submit their code to a grading center of professional coders who can provide feedback on their code. The user is given a tentative lesson plan to follow with code to complete per lesson. Users are given a dashboard showing their graded assignments, next assignment to complete, and a progress bar. Graders have a dashboard listing user’s assignments that need to be graded. Each assignment provides instructions, resources to complete the assignment, and a coding box to be submitted.",
-                service:"JSX, CSS3, React, Express, MongoDB, Node,js, Bcrypt, Passport, JSON",
-                imageSrc: "https://i.ibb.co/bLSddVz/screenshot5-Copy.png",
-                url: 'http://codecoach0.herokuapp.com/',
-            },
+
             {
                 id: 6,
                 title: 'Weather Dashboard',
