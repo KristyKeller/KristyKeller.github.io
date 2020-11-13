@@ -196,7 +196,6 @@ li .link:hover {
   padding-bottom: 100px;
 }
 
-/* media query here, with width*/
 
 .projectBtn {
   background: black;
@@ -216,6 +215,31 @@ li .link:hover {
   height: 30em;
 }
 
+/* media query here, with width*/
+@media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
+
+  .work {
+    left: 2em;
+    top: 2em;
+    align-items: flex-start;
+  }
+  
+  .work .work-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5em;
+  }
+  
+  .project img {
+    width: 45em;
+    height: 45em;
+  }
+
+  body {
+    font-size: 6px;
+  }
+  
+   }
 .contact {
   background: #D2C5E7;
   position: center;
@@ -261,7 +285,6 @@ li .link:hover {
   text-decoration: none;
   text-align: center;
   margin: 6px;
-  color: black;
 }
 
 .footer {
