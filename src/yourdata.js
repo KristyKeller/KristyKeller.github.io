@@ -61,12 +61,11 @@ export default
             },
             {
                 id: 5,
-                title: 'Note Taker',
-                description:"Application that can be used to write, save, and delete notes. Uses an Express backend to save and retrieve note data from JSON. Made for users that need to keep track of a lot of information, allowing the user to have written information available when needed.",
-                service:"HTML5, CSS3, Javascript, JSON, Inquirer, Node.js, Express.js",
-                imageSrc: "https://i.ibb.co/QMbgvhX/note-taker.png",
-                url: 'https://github.com/KristyKeller/NoteTaker',
-                code: ""
+                title: 'Code Coach',
+                description:"A learning application where anyone who wants to learn the basics of coding can practice and submit their code to a grading center of professional coders who can provide feedback on their code. The user is given a tentative lesson plan to follow with code to complete per lesson. Users are given a dashboard showing their graded assignments, next assignment to complete, and a progress bar. Graders have a dashboard listing user’s assignments that need to be graded. Each assignment provides instructions, resources to complete the assignment, and a coding box to be submitted.",
+                service:"JSX, CSS3, React, Express, MongoDB, Node,js, Bcrypt, Passport, JSON",
+                imageSrc: "https://i.ibb.co/bLSddVz/screenshot5-Copy.png",
+                url: 'http://codecoach0.herokuapp.com/',
             },
             {
                 id: 6,
