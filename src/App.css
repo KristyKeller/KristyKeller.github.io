@@ -246,7 +246,7 @@ li .link:hover {
   text-align: center;
   padding-top: 2px;
   width: 100%;
- margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .contact h1 {
