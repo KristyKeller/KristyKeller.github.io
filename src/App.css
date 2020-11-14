@@ -59,7 +59,7 @@ nav {
   z-index: 100;
   background: #D2C5E7;
   width: 100%; 
-  height: 8%;
+  height: 7%;
   text-align: right;
 }
 
@@ -158,7 +158,6 @@ li .link:hover {
   font-size: 16px;
   text-align: center;
   margin: auto;
-  /* width: 37em; */
   float: center;
 }
 
@@ -199,7 +198,6 @@ li .link:hover {
 
 .projectBtn {
   background: black;
-  color: white;
   margin:5px;
   border: 0px;
   padding: 1em 3em;
@@ -210,9 +208,27 @@ li .link:hover {
   -o-transition: all 0.2s ease-out;
 }
 
+.projectBtn:hover {
+  opacity: 0.6;
+}
+
+.projectBtn a {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
 .project img {
   width: 30em;
   height: 30em;
+}
+
+
+.project img:hover {
+  opacity: 0.6;
 }
 
 /* media query here, with width*/
@@ -246,7 +262,7 @@ li .link:hover {
   text-align: center;
   padding-top: 2px;
   width: 100%;
-  margin-bottom: 0px;
+ margin-bottom: 0px;
 }
 
 .contact h1 {
@@ -278,7 +294,7 @@ li .link:hover {
   display: inline-block;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .contact li a {
@@ -286,6 +302,15 @@ li .link:hover {
   text-align: center;
   margin: 6px;
 }
+
+.contact .email:hover {
+  opacity: 0.6;
+}
+
+.contact li a:hover {
+  opacity: 0.6;
+}
+
 
 .footer {
   position: relative;
