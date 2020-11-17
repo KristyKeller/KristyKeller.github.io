@@ -6,7 +6,7 @@ export default
             //Line 2 For Header
             "Full-Stack Web Developer",
             //Line 3 For Header
-            "from Philadelphia, PA"
+            "in Philadelphia, PA"
         ],
         //Contact Email
         contactEmail: 'keller.kristy@outlook.com',
