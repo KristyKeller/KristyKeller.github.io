@@ -23,7 +23,7 @@ class Contact extends Component {
         </div>
         </Fade>
 
-            <span className='footer'>Made With ❤ by Kristy Keller</span>
+            <span className='footer'>Copyright &copy;Kristy Keller</span>
         </div>);
     }
 }
