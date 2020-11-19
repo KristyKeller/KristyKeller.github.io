@@ -54,25 +54,25 @@ export default
                 id: 4,
                 title: 'Day Planner',
                 description:"Work day planner developed to create a schedule based on standard business hours where the current date and time is displayed. Time blocks are color coded to indicate whether the event is in the past, present, or future. The user's entered schedule is saved in local storage and stored when the page is refreshed.",
-                service: "HTML5, CSS3, Javascript, Moment.js",
+                service: "HTML5, CSS3, JavaScript, Moment.js",
                 imageSrc: "https://i.ibb.co/WvV1BwN/day-planner.png",
                 url: 'https://kristykeller.github.io/DayPlanner/',
                 urlCode: "https://github.com/KristyKeller/DayPlanner"
             },
             {
                 id: 5,
-                title: 'Code Coach',
-                description:"A learning application where anyone who wants to learn the basics of coding can practice and submit their code to a grading center of professional coders who can provide feedback on their code. The user is given a tentative lesson plan to follow with code to complete per lesson. Users are given a dashboard showing their graded assignments, next assignment to complete, and a progress bar. Graders have a dashboard listing user’s assignments that need to be graded. Each assignment provides instructions, resources to complete the assignment, and a coding box to be submitted.",
-                service:"JSX, CSS3, React, Express, MongoDB, Node,js, Bcrypt, Passport, JSON",
-                imageSrc: "https://i.ibb.co/bLSddVz/screenshot5-Copy.png",
-                url: 'http://codecoach0.herokuapp.com/',
-                urlCode: "https://github.com/KristyKeller/CodeCoach"
+                title: 'Note Taker',
+                description:"Application that can be used to write, save, and delete notes. Uses an Express backend to save and retrieve note data from JSON. Made for users that need to keep track of a lot of information, allowing the user to have written information available when needed",
+                service: "HTML, CSS3, JavaScript, Express.js, Inquirer, JSON, Node.js",
+                imageSrc: "https://i.ibb.co/QMbgvhX/note-taker.png",
+                url: 'https://note-taker-express-app.herokuapp.com/',
+                urlCode: "https://github.com/KristyKeller/NoteTaker"
             },
             {
                 id: 6,
                 title: 'Weather Dashboard',
                 description:"A weather dashboard that allows the user to search for a city that is then displayed to his or her search history. Current and future weather forecasts are presented through a 5-day forecast. Each day has the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index. The UV index is assigned a color that showcases whether the conditions are favorable, moderate, or severe. The user can navigate using previously searched cities via the search history list.",
-                service: "HTML5, CSS3, Javascript, API, Moment.js",
+                service: "HTML5, CSS3, JavaScript, API, Moment.js",
                 imageSrc: 'https://i.ibb.co/XpMgQGc/weather-screenshot.png',
                 url: 'https://kristykeller.github.io/WeatherDashboard/',
                 urlCode: "https://github.com/KristyKeller/WeatherDashboard"
